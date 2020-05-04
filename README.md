@@ -19,7 +19,9 @@
 
 <body>
      <form id="form2" runat="server">
-            Bear!</span>
+            <br />
+            Bear!<br />
+         <br />
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>
@@ -34,16 +36,20 @@
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        document.getElementById("LeftTime").innerHTML = d + " days!</span>";
+        document.getElementById("LeftTime").innerHTML = d + " days!<br />";
     }
     FreshTime()
     var sh;
     sh = setInterval(FreshTime, 1000);
     </script>     
-            I'm so lucky to be with you!</span>
+            <br />
+            I'm so lucky to be with you!<br />
+            <br />
             <span class="auto-style1">I love you!</span><br class="auto-style1" />
-            Work hard and marry me soon~</span>
-            Waiting for you~
+            <br />
+            Work hard and marry me soon~<br />
+            <br />
+            Waiting for you~<br />
            
 
 
