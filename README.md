@@ -36,7 +36,7 @@
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        <span class="auto-style1">document.getElementById("LeftTime").innerHTML = d + " days!"</span><br class="auto-style1" />;
+        document.getElementById("LeftTime").innerHTML = d + " <span class="auto-style1">days!</span><br class="auto-style1" />";
     }
     FreshTime()
     var sh;
