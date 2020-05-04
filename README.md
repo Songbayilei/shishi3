@@ -1,8 +1,7 @@
 # shishi3
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    
+    <title></title>      
     <style type="text/css">
         .newStyle1 {
             font-family: Algerian;
@@ -13,14 +12,16 @@
             font-size: large;
         }
         </style>
-
 </head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>倒计时</title>
     <link rel="stylesheet" href="style.css" />
 
 <body>
-    <form id="form2" runat="server">
+     <form id="form2" runat="server">
+            <br class="auto-style1" />
+            <span class="auto-style1">Bear!</span><br class="auto-style1" />
+            <br class="auto-style1" />
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>
@@ -41,5 +42,12 @@
     var sh;
     sh = setInterval(FreshTime, 1000);
     </script>
+            <br class="auto-style1" />
+            <span class="auto-style1">I&#39;m so lucky to be with you!&nbsp; I love you!</span><br class="auto-style1" />
+            <br class="auto-style1" />
+            <span class="auto-style1">Work hard and marry me soon~ Waiting for you~</span><br class="auto-style1" />
+            <br class="auto-style1" />
+
+
 </body>
 </html>
