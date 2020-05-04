@@ -16,7 +16,7 @@
     <div class="time">We have been together for <span id="LeftTime"></span></div>
     <script>
     function FreshTime() {
-        var endtime = new Date("2017/9/30,18:05:00"); //结束时间
+        var endtime = new Date("2019/6/1,00:00:00"); //结束时间
         var nowtime = new Date(); //当前时间
         var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
         d = parseInt(lefttime / 3600 / 24);
