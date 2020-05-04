@@ -51,7 +51,7 @@
             <br />
             Waiting for you~<br />
     <br />
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="auto-style1">By: Your cute dirty Piga~</span><br class="auto-style1" />
+                    From: <span class="auto-style1">Your cute dirty Piga~</span><br class="auto-style1" />
            
 
 
