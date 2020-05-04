@@ -20,7 +20,8 @@
 <body>
      <form id="form2" runat="server">
             <br />
-            <span class="auto-style1">Bear!</span><br class="auto-style1" />
+         To:<br />
+            &nbsp;&nbsp;<span class="auto-style1">Bear!</span><br class="auto-style1" />
          <br />
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
@@ -51,7 +52,8 @@
             <br />
             Waiting for you~<br />
     <br />
-                    From: <span class="auto-style1">Your cute dirty Piga~</span><br class="auto-style1" />
+                    From: 
+     &nbsp;&nbsp;<span class="auto-style1">Your cute dirty Piga~</span><br class="auto-style1" />
            
 
 
