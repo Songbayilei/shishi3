@@ -18,7 +18,7 @@
     function FreshTime() {
         var endtime = new Date("2019/6/1,00:00:00"); //结束时间
         var nowtime = new Date(); //当前时间
-        var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
+        var lefttime = parseInt((nowtime.getTime() - endtime.getTime()) / 1000);
         d = parseInt(lefttime / 3600 / 24);
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
