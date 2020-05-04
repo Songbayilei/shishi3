@@ -16,14 +16,14 @@
     <div class="time">We have been together for <span id="LeftTime"></span></div>
     <script>
     function FreshTime() {
-        var endtime = new Date("2019/6/1,00:00:00"); //结束时间
+        var endtime = new Date("2019/6/1"); //结束时间
         var nowtime = new Date(); //当前时间
         var lefttime = parseInt((nowtime.getTime() - endtime.getTime()) / 1000);
         d = parseInt(lefttime / 3600 / 24);
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        document.getElementById("LeftTime").innerHTML = d + "days" + h + "hours" + m + "minutes" + s + "seconds";
+        document.getElementById("LeftTime").innerHTML = d + " days";
     }
     FreshTime()
     var sh;
