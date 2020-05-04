@@ -2,6 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    
+    <style type="text/css">
+        .newStyle1 {
+            font-family: Algerian;
+        }
+        .auto-style1 {
+            font-family: "Bell MT";
+            font-weight: bold;
+            font-size: large;
+        }
+        </style>
+
 </head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>倒计时</title>
@@ -23,7 +35,7 @@
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        document.getElementById("LeftTime").innerHTML = d + " days";
+        document.getElementById("LeftTime").innerHTML = d + " days!";
     }
     FreshTime()
     var sh;
