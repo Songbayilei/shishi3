@@ -52,7 +52,7 @@
             <br />
             Waiting for you~<br />
     <br />
-                    From: 
+                    From: <br />
      &nbsp;&nbsp;<span class="auto-style1">Your cute dirty Piga~</span><br class="auto-style1" />
            
 
