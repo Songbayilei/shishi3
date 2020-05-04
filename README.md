@@ -22,8 +22,9 @@
             <br class="auto-style1" />
             <span class="auto-style1">Bear!</span><br class="auto-style1" />
             <br class="auto-style1" />
+             </span>
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Label" CssClass="auto-style1"></asp:Label>
         </div>
     </form>
     <div class="time"><span class="auto-style1">We have been together for </span><br class="auto-style1" /><span id="LeftTime"></span></div>
@@ -36,7 +37,7 @@
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        document.getElementById("LeftTime").innerHTML = d + " <span class="auto-style1">days!</span><br class="auto-style1" />";
+        document.getElementById("LeftTime").innerHTML = d + "<span class="auto-style1">&nbsp;days!</span><br class="auto-style1" />";
     }
     FreshTime()
     var sh;
