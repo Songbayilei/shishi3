@@ -22,9 +22,8 @@
             <br class="auto-style1" />
             <span class="auto-style1">Bear!</span><br class="auto-style1" />
             <br class="auto-style1" />
-             </span>
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Label" CssClass="auto-style1"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
     <div class="time"><span class="auto-style1">We have been together for </span><br class="auto-style1" /><span id="LeftTime"></span></div>
