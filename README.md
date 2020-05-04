@@ -20,13 +20,13 @@
 <body>
      <form id="form2" runat="server">
             <br class="auto-style1" />
-            <span class="auto-style1">Bear!</span><br class="auto-style1" />
+            Bear!
             <br class="auto-style1" />
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
-    <div class="time"><span class="auto-style1">We have been together for </span><br class="auto-style1" /><span id="LeftTime"></span></div>
+    <div class="time">We have been together for <span id="LeftTime"></span></div>
     <script>
     function FreshTime() {
         var endtime = new Date("2019/6/1"); //结束时间
@@ -36,16 +36,18 @@
         h = parseInt((lefttime / 3600) % 24);
         m = parseInt((lefttime / 60) % 60);
         s = parseInt(lefttime % 60);
-        document.getElementById("LeftTime").innerHTML = d + "<span class="auto-style1">&nbsp;days!</span><br class="auto-style1" />";
+        document.getElementById("LeftTime").innerHTML = d + " days!";
     }
     FreshTime()
     var sh;
     sh = setInterval(FreshTime, 1000);
     </script>
             <br class="auto-style1" />
-            <span class="auto-style1">I&#39;m so lucky to be with you!&nbsp; I love you!</span><br class="auto-style1" />
+            I'm so lucky to be with you!
             <br class="auto-style1" />
-            <span class="auto-style1">Work hard and marry me soon~ Waiting for you~</span><br class="auto-style1" />
+            <span class="auto-style1">I love you!</span><br class="auto-style1" />
+            <br class="auto-style1" />
+            Work hard and marry me soon~ Waiting for you~
             <br class="auto-style1" />
 
 
